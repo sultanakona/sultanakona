@@ -111,10 +111,9 @@ I value **clean, reusable, and scalable code**, and I take full ownership of eve
 ## 📫 Let’s Connect
 
 - 🔗 GitHub: https://github.com/sultanakona  
-- 📧 Email: your@email.com  
-- 💼 LinkedIn: (add your LinkedIn link)  
-- 🌐 Portfolio: (add your portfolio link)
-
+- 📧 Email: sultanakona259@gmail.com
+- 💼 LinkedIn: https://www.linkedin.com/in/sultana-parvin-kona-53596b261/  
+- 🌐 Portfolio: https://sultana-parvin-kona.vercel.app/
 ---
 
 ## 📊 GitHub Stats
