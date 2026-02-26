@@ -58,9 +58,7 @@ I value **clean, reusable, and scalable code**, and I take full ownership of eve
 - Word embeddings  
 - Basic Neural Machine Translation (NMT)
 
-### 🔹 Web & Mobile (Basic)
-- React  
-- React Native  
+
 
 ### 🔹 Tools & DevOps (Beginner)
 - Git & GitHub  
