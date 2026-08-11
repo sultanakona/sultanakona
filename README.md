@@ -1,7 +1,7 @@
 <h1 align="center">👋 Hi, I'm Sultana Parvin Kona</h1>
 
 <p align="center">
-  <img src="https://github.com/sultanakona.png" width="130" alt="Sultana Parvin Kona"/>
+  <img src="https://raw.githubusercontent.com/sultanakona/sultanakona/main/assets/animated-avatar.svg" width="160" alt="Sultana Parvin Kona"/>
 </p>
 
 # Hi, I'm Sultana Parvin Kona 👋
