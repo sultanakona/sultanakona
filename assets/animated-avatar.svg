@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400" preserveAspectRatio="xMidYMid meet">
+  <style>
+    .bg { fill: #0b1220; }
+    .face { fill: #ffd7b5; stroke:#00000022; stroke-width:2 }
+    .hair { fill: #0f1720 }
+    .eye { fill: #0b1220 }
+    .mouth { fill: none; stroke: #0b1220; stroke-width:4; stroke-linecap:round }
+    .keyboard { fill: #0f1720 }
+    .key { fill: #142030 }
+    .code { fill: none; stroke: #7c3aed; stroke-width:4; stroke-linecap:round }
+
+    /* simple CSS animations */
+    .blink { animation: blink 3s infinite; transform-origin: center; }
+    @keyframes blink { 0%,90% {transform: scaleY(1);} 92%{transform: scaleY(0.08);} 100%{transform: scaleY(1);} }
+
+    .kbd-press { animation: press 0.6s infinite; }
+    @keyframes press { 0%{transform: translateY(0);} 50%{transform: translateY(4px);} 100%{transform: translateY(0);} }
+
+    .float { animation: float 3s ease-in-out infinite; }
+    @keyframes float { 0%{transform: translateY(0);} 50%{transform: translateY(-8px);} 100%{transform: translateY(0);} }
+
+    .dot { fill: #a78bfa }
+  </style>
+
+  <!-- background rounded square -->
+  <rect class="bg" x="0" y="0" width="400" height="400" rx="24"/>
+
+  <!-- simple hair -->
+  <path class="hair" d="M80 140c40-80 240-80 260 0v40c-60-40-200-40-260 0z" />
+
+  <!-- face -->
+  <circle class="face" cx="200" cy="200" r="80" />
+
+  <!-- eyes (with blinking animation applied to eyelids) -->
+  <g transform="translate(0,0)">
+    <g transform="translate(170,190)">
+      <ellipse rx="10" ry="10" class="eye"/>
+      <rect x="-12" y="-12" width="24" height="12" fill="#ffd7b5" class="blink" />
+    </g>
+    <g transform="translate(230,190)">
+      <ellipse rx="10" ry="10" class="eye"/>
+      <rect x="-12" y="-12" width="24" height="12" fill="#ffd7b5" class="blink" />
+    </g>
+  </g>
+
+  <!-- mouth -->
+  <path class="mouth" d="M175 225 Q200 245 225 225" />
+
+  <!-- small sweat drop -->
+  <path d="M250 160 C246 150, 256 140, 262 148 C266 153, 262 162, 256 167 Z" fill="#cbeafe" opacity="0.9"/>
+
+  <!-- keyboard -->
+  <g transform="translate(90,270)" class="kbd-press">
+    <rect class="keyboard" x="0" y="0" width="220" height="40" rx="6"/>
+    <!-- keys -->
+    <g>
+      <rect class="key" x="10" y="8" width="20" height="8" rx="1"/>
+      <rect class="key" x="36" y="8" width="20" height="8" rx="1"/>
+      <rect class="key" x="62" y="8" width="20" height="8" rx="1"/>
+      <rect class="key" x="88" y="8" width="20" height="8" rx="1"/>
+      <rect class="key" x="114" y="8" width="20" height="8" rx="1"/>
+      <rect class="key" x="140" y="8" width="20" height="8" rx="1"/>
+      <rect class="key" x="166" y="8" width="20" height="8" rx="1"/>
+    </g>
+  </g>
+
+  <!-- floating code symbols -->
+  <g class="float" transform="translate(310,80)">
+    <path class="code" d="M-6,-6 l12,12 M6,-6 l-12,12" />
+  </g>
+
+  <g class="float" transform="translate(60,100) rotate(-10)">
+    <circle class="dot" cx="0" cy="0" r="6"/>
+  </g>
+
+  <!-- frame border -->
+  <rect x="6" y="6" width="388" height="388" rx="18" fill="none" stroke="#ffffff0D" />
+</svg>
