@@ -1,0 +1,11 @@
+{
+  "name": "avatar-generator",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "capture": "node scripts/capture.js"
+  },
+  "dependencies": {
+    "puppeteer": "^20.11.0"
+  }
+}
