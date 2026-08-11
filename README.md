@@ -1,3 +1,9 @@
+<h1 align="center">👋 Hi, I'm Sultana Parvin Kona</h1>
+
+<p align="center">
+  <img src="https://github.com/sultanakona.png" width="130" alt="Sultana Parvin Kona"/>
+</p>
+
 # Hi, I'm Sultana Parvin Kona 👋
 
 ### Backend Engineer | AI/LLM Developer
@@ -251,10 +257,22 @@ I’m especially interested in building products where **backend engineering and
 
 ---
 
-# 🤝 Let's Connect
+# 📫 Contact / Contract
 
-If you're interested in **Backend Engineering, AI/LLM Applications, RAG, or intelligent software systems**, feel free to connect or collaborate.
+If you'd like to connect, collaborate, or discuss a contract, reach out:
 
-### 💬 Always learning. Always building. Always improving.
+- 🔗 GitHub: https://github.com/sultanakona
+- 📧 Email: sultanakona259@gmail.com
+- 💼 LinkedIn: https://www.linkedin.com/in/sultana-parvin-kona/
+- 🌐 Portfolio: https://sultana-parvin-kona.vercel.app/
 
-> **“Build systems that are reliable enough for production and intelligent enough to make a difference.”**
+---
+
+# 💡 Why Me?
+
+> I combine smart work, consistency, and a strong desire to create meaningful impact.  
+> Let’s build something valuable together 🚀
+
+<p align="center">
+  <b>Thanks for visiting my profile!</b>
+</p>
