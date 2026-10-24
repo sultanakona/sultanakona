@@ -264,8 +264,7 @@ If you'd like to connect, collaborate, or discuss a contract, reach out:
 - 🔗 GitHub: https://github.com/sultanakona
 - 📧 Email: sultanakona259@gmail.com
 - 💼 LinkedIn: https://www.linkedin.com/in/sultana-parvin-kona/
-- 🌐 Portfolio: https://sultana-parvin-kona.vercel.app/
-
+- 🌐 Portfolio: https://sultana-parvin-kona-dev.vercel.app/
 ---
 
 # 💡 Why Me?
